@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F018D18D1B05F708009C6B45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F018D18C1B05F708009C6B45 /* AppDelegate.swift */; };
+		F018D18F1B05F708009C6B45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F018D18E1B05F708009C6B45 /* ViewController.swift */; };
+		F018D1921B05F708009C6B45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F018D1901B05F708009C6B45 /* Main.storyboard */; };
+		F018D1941B05F708009C6B45 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F018D1931B05F708009C6B45 /* Images.xcassets */; };
+		F018D1971B05F709009C6B45 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F018D1951B05F709009C6B45 /* LaunchScreen.xib */; };
+		F018D1A31B05F709009C6B45 /* zBIBIiOScreatorJSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F018D1A21B05F709009C6B45 /* zBIBIiOScreatorJSONTests.swift */; };
+		F018D1AD1B06086E009C6B45 /* functiiOameni.swift in Sources */ = {isa = PBXBuildFile; fileRef = F018D1AC1B06086E009C6B45 /* functiiOameni.swift */; };
+		F018D1AF1B06091A009C6B45 /* claseOameni.swift in Sources */ = {isa = PBXBuildFile; fileRef = F018D1AE1B06091A009C6B45 /* claseOameni.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F018D19D1B05F709009C6B45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F018D17F1B05F708009C6B45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F018D1861B05F708009C6B45;
+			remoteInfo = zBIBIiOScreatorJSON;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F018D1871B05F708009C6B45 /* zBIBIiOScreatorJSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zBIBIiOScreatorJSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F018D18B1B05F708009C6B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F018D18C1B05F708009C6B45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F018D18E1B05F708009C6B45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F018D1911B05F708009C6B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F018D1931B05F708009C6B45 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F018D1961B05F709009C6B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F018D19C1B05F709009C6B45 /* zBIBIiOScreatorJSONTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zBIBIiOScreatorJSONTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F018D1A11B05F709009C6B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F018D1A21B05F709009C6B45 /* zBIBIiOScreatorJSONTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zBIBIiOScreatorJSONTests.swift; sourceTree = "<group>"; };
+		F018D1AC1B06086E009C6B45 /* functiiOameni.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = functiiOameni.swift; sourceTree = "<group>"; };
+		F018D1AE1B06091A009C6B45 /* claseOameni.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = claseOameni.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F018D1841B05F708009C6B45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F018D1991B05F709009C6B45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F018D17E1B05F708009C6B45 = {
+			isa = PBXGroup;
+			children = (
+				F018D1891B05F708009C6B45 /* zBIBIiOScreatorJSON */,
+				F018D19F1B05F709009C6B45 /* zBIBIiOScreatorJSONTests */,
+				F018D1881B05F708009C6B45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F018D1881B05F708009C6B45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F018D1871B05F708009C6B45 /* zBIBIiOScreatorJSON.app */,
+				F018D19C1B05F709009C6B45 /* zBIBIiOScreatorJSONTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F018D1891B05F708009C6B45 /* zBIBIiOScreatorJSON */ = {
+			isa = PBXGroup;
+			children = (
+				F018D18C1B05F708009C6B45 /* AppDelegate.swift */,
+				F018D1AC1B06086E009C6B45 /* functiiOameni.swift */,
+				F018D1AE1B06091A009C6B45 /* claseOameni.swift */,
+				F018D18E1B05F708009C6B45 /* ViewController.swift */,
+				F018D1901B05F708009C6B45 /* Main.storyboard */,
+				F018D1931B05F708009C6B45 /* Images.xcassets */,
+				F018D1951B05F709009C6B45 /* LaunchScreen.xib */,
+				F018D18A1B05F708009C6B45 /* Supporting Files */,
+			);
+			path = zBIBIiOScreatorJSON;
+			sourceTree = "<group>";
+		};
+		F018D18A1B05F708009C6B45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F018D18B1B05F708009C6B45 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F018D19F1B05F709009C6B45 /* zBIBIiOScreatorJSONTests */ = {
+			isa = PBXGroup;
+			children = (
+				F018D1A21B05F709009C6B45 /* zBIBIiOScreatorJSONTests.swift */,
+				F018D1A01B05F709009C6B45 /* Supporting Files */,
+			);
+			path = zBIBIiOScreatorJSONTests;
+			sourceTree = "<group>";
+		};
+		F018D1A01B05F709009C6B45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F018D1A11B05F709009C6B45 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F018D1861B05F708009C6B45 /* zBIBIiOScreatorJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F018D1A61B05F709009C6B45 /* Build configuration list for PBXNativeTarget "zBIBIiOScreatorJSON" */;
+			buildPhases = (
+				F018D1831B05F708009C6B45 /* Sources */,
+				F018D1841B05F708009C6B45 /* Frameworks */,
+				F018D1851B05F708009C6B45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zBIBIiOScreatorJSON;
+			productName = zBIBIiOScreatorJSON;
+			productReference = F018D1871B05F708009C6B45 /* zBIBIiOScreatorJSON.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F018D19B1B05F709009C6B45 /* zBIBIiOScreatorJSONTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F018D1A91B05F709009C6B45 /* Build configuration list for PBXNativeTarget "zBIBIiOScreatorJSONTests" */;
+			buildPhases = (
+				F018D1981B05F709009C6B45 /* Sources */,
+				F018D1991B05F709009C6B45 /* Frameworks */,
+				F018D19A1B05F709009C6B45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F018D19E1B05F709009C6B45 /* PBXTargetDependency */,
+			);
+			name = zBIBIiOScreatorJSONTests;
+			productName = zBIBIiOScreatorJSONTests;
+			productReference = F018D19C1B05F709009C6B45 /* zBIBIiOScreatorJSONTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F018D17F1B05F708009C6B45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = stormbraces;
+				TargetAttributes = {
+					F018D1861B05F708009C6B45 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					F018D19B1B05F709009C6B45 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = F018D1861B05F708009C6B45;
+					};
+				};
+			};
+			buildConfigurationList = F018D1821B05F708009C6B45 /* Build configuration list for PBXProject "zBIBIiOScreatorJSON" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F018D17E1B05F708009C6B45;
+			productRefGroup = F018D1881B05F708009C6B45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F018D1861B05F708009C6B45 /* zBIBIiOScreatorJSON */,
+				F018D19B1B05F709009C6B45 /* zBIBIiOScreatorJSONTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F018D1851B05F708009C6B45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F018D1921B05F708009C6B45 /* Main.storyboard in Resources */,
+				F018D1971B05F709009C6B45 /* LaunchScreen.xib in Resources */,
+				F018D1941B05F708009C6B45 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F018D19A1B05F709009C6B45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F018D1831B05F708009C6B45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F018D18F1B05F708009C6B45 /* ViewController.swift in Sources */,
+				F018D1AF1B06091A009C6B45 /* claseOameni.swift in Sources */,
+				F018D1AD1B06086E009C6B45 /* functiiOameni.swift in Sources */,
+				F018D18D1B05F708009C6B45 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F018D1981B05F709009C6B45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F018D1A31B05F709009C6B45 /* zBIBIiOScreatorJSONTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F018D19E1B05F709009C6B45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F018D1861B05F708009C6B45 /* zBIBIiOScreatorJSON */;
+			targetProxy = F018D19D1B05F709009C6B45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F018D1901B05F708009C6B45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F018D1911B05F708009C6B45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F018D1951B05F709009C6B45 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F018D1961B05F709009C6B45 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F018D1A41B05F709009C6B45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F018D1A51B05F709009C6B45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F018D1A71B05F709009C6B45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = zBIBIiOScreatorJSON/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F018D1A81B05F709009C6B45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = zBIBIiOScreatorJSON/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F018D1AA1B05F709009C6B45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = zBIBIiOScreatorJSONTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zBIBIiOScreatorJSON.app/zBIBIiOScreatorJSON";
+			};
+			name = Debug;
+		};
+		F018D1AB1B05F709009C6B45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = zBIBIiOScreatorJSONTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zBIBIiOScreatorJSON.app/zBIBIiOScreatorJSON";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F018D1821B05F708009C6B45 /* Build configuration list for PBXProject "zBIBIiOScreatorJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F018D1A41B05F709009C6B45 /* Debug */,
+				F018D1A51B05F709009C6B45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F018D1A61B05F709009C6B45 /* Build configuration list for PBXNativeTarget "zBIBIiOScreatorJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F018D1A71B05F709009C6B45 /* Debug */,
+				F018D1A81B05F709009C6B45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F018D1A91B05F709009C6B45 /* Build configuration list for PBXNativeTarget "zBIBIiOScreatorJSONTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F018D1AA1B05F709009C6B45 /* Debug */,
+				F018D1AB1B05F709009C6B45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F018D17F1B05F708009C6B45 /* Project object */;
+}
